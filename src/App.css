@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0px auto;
+  text-align: center;
+  width: 700px;
+}
+
+header {
+  margin: 50px 0px;
+}
+
+#logoImg {
+  width: 100px;
+  height: 100px;
+}
+
+#title {
+  color: #fbec5d;
+  background-color: #fffbc9;
+  border-radius: 5px;
+  font-family: "Oleo Script", cursive;
+  font-size: 50px;
+}
+
+.konto {
+  color: #6b3e26;
+  background-color: #fffbc9;
+  border: 1px solid #fbec5d;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+.saldo {
+  background-color: #fbec5d;
+  color: #ffffff;
+  border: 1px solid #fbec5d;
+  border-radius: 15px;
+  font-size: 50px;
+  margin: 5px 5px 20px 5px;
+  padding: 25px 0px;
+}
+
+.geldbetrag {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 0.3rem;
+  min-width: 200px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  transition: border-color 0.5s ease-out;
+}
+
+.auszahlen,
+.einzahlen {
+  margin: 5px;
+  background-color: #fbec5d;
+  color: #6b3e26;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
